@@ -1,0 +1,1 @@
+Correr `python main.py`

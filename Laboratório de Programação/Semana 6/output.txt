@@ -1,0 +1,2 @@
+Chave utilizada: [165, 108, 137, 206]
+Lista Hexadecimal final: ['BF', 'E6', '04', '78']

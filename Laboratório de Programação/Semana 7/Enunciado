@@ -1,0 +1,8 @@
+a) Imagem A posta à esquerda/topo é o resultado com plotly
+b) Imagem B posta ao centro/meio é o resultado com bokeh
+
+c) Imagem C posta à direita/baixo é esta:
+1- Assumir que as barbatanas crescem 14mm por ano e que o comprimentos no ano 2010 é 180mm
+2 - Fazer a estimativa da correlação entre "ganho de massa corporal per ano" e respetivo "nível de CO2 para esse ano"
+
+d) Imagems A e B e C devem fazer parte duma única figura que é guardada num único ficheiro jpeg/png

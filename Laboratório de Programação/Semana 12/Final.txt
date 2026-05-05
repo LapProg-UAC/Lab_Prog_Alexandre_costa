@@ -1,0 +1,12 @@
+Linhas de código com comentários: 163 Linhas
+Linhas de código sem comentários: 92 Linhas
+
+Número de layers: 2 -> ( 1 + (Mix de Inner e Outter) )
+Tempo de renderização: 3 minutos e 4 segundos -> 184 segundos
+
+Includes:
+os
+numpy as np
+imageio
+mitsuba
+

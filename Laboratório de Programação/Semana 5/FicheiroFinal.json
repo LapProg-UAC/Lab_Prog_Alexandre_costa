@@ -1,0 +1,118 @@
+[
+    {
+        "id_utente": "668;",
+        "nome_utente": "Virgínia Torres",
+        "receita": [
+            "Procainamida",
+            "Fenilbutazona",
+            "Tiramina (Alimentos, Etc.)",
+            "Antidepressivos Tricíclicos",
+            "Anticolinérgicos"
+        ],
+        "balanco_total": 25,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": ":;8=",
+        "nome_utente": "Eduardo Neto",
+        "receita": [
+            "Sulfonilinas (Clorpropamida)",
+            "Piridoxina",
+            "Tiroxina",
+            "Tetraciclinas",
+            "Antibióticos (Largo Espectro)"
+        ],
+        "balanco_total": 27,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": "6<3;",
+        "nome_utente": "Armando Neves",
+        "receita": [
+            "Anti-histamínicos",
+            "Levodopa",
+            "Insulinas"
+        ],
+        "balanco_total": 11,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": "8<2?",
+        "nome_utente": "Luís Sousa",
+        "receita": [
+            "Metronidazol",
+            "Isoniazida",
+            "Carbamazepina"
+        ],
+        "balanco_total": 5,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": ":79=",
+        "nome_utente": "Luís Brito",
+        "receita": [
+            "Bloqueadores adrenérgicos beta",
+            "Esteróides Anabólicos",
+            "Piridoxina"
+        ],
+        "balanco_total": 9,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": ":>4<",
+        "nome_utente": "Diogo Santos",
+        "receita": [
+            "Analgésicos Narcóticos",
+            "Tiroxina",
+            "Colestiramina"
+        ],
+        "balanco_total": 7,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": ":<8=",
+        "nome_utente": "José Soares",
+        "receita": [
+            "Tiroxina",
+            "Metotrexato",
+            "Hidrato de Cloral"
+        ],
+        "balanco_total": 10,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": "88:;",
+        "nome_utente": "Inês Silva",
+        "receita": [
+            "Indometacina",
+            "Tiazidas",
+            "Antidepressivos Tricíclicos"
+        ],
+        "balanco_total": 11,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": "4:;:",
+        "nome_utente": "Isabel Borges",
+        "receita": [
+            "Haloperidol",
+            "Simpaticomiméticos (A. Directa)",
+            "Ácido Ectacrínico"
+        ],
+        "balanco_total": 9,
+        "resultado": "Com Interações"
+    },
+    {
+        "id_utente": "97:?",
+        "nome_utente": "Sofia Macedo",
+        "receita": [
+            "iMAOs",
+            "Antiácidos",
+            "Tiazidas",
+            "Isoniazida",
+            "Naproxeno"
+        ],
+        "balanco_total": 30,
+        "resultado": "Com Interações"
+    }
+]

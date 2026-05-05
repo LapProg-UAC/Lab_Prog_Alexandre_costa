@@ -1,0 +1,11 @@
+test_entradas_invalidas (sequencia_unittest.TesteSequencia.test_entradas_invalidas)
+Verifica se a função levanta ValueError para entradas proibidas. ... ok
+test_recorrencia_longa (sequencia_unittest.TesteSequencia.test_recorrencia_longa)
+Verifica um valor mais alto da sequência. ... ok
+test_valores_validos (sequencia_unittest.TesteSequencia.test_valores_validos)
+Verifica resultados esperados para n de 0 a 5. ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
