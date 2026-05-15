@@ -1,0 +1,673 @@
+{
+    "Total_Patients": 10,
+    "Prescription": [
+        {
+            "Patient_ID": "U-00001",
+            "Patient_Name": "Vasco Ribeiro",
+            "Prescribed_Medications": [
+                "Antiácidos",
+                "Metotrexato",
+                "Tiroxina",
+                "Analgésicos Narcóticos",
+                "Metronidazol"
+            ],
+            "Num_Medicines": 5,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 10,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Metronidazol",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Metotrexato",
+                        "Medicine_b": "Metronidazol",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Metotrexato",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Metotrexato",
+                        "Medicine_b": "Tiroxina",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Metotrexato",
+                        "Medicine_b": "Analgésicos Narcóticos",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Tiroxina",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Tiroxina",
+                        "Medicine_b": "Analgésicos Narcóticos",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Tiroxina",
+                        "Medicine_b": "Metronidazol",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Analgésicos Narcóticos",
+                        "Value": 0,
+                        "Description": "No clinical significance"
+                    },
+                    {
+                        "Medicine_a": "Analgésicos Narcóticos",
+                        "Medicine_b": "Metronidazol",
+                        "Value": 0,
+                        "Description": "No clinical significance"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 2,
+                    "1": 1,
+                    "2": 2,
+                    "3": 3,
+                    "4": 1,
+                    "5": 1
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00002",
+            "Patient_Name": "Sofia Barbosa",
+            "Prescribed_Medications": [
+                "Anticoagulantes Orais",
+                "Fenilbutazona",
+                "Quinidina",
+                "Ácido Mefenâmico",
+                "Biguanidas (Fenformina)"
+            ],
+            "Num_Medicines": 5,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 10,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Fenilbutazona",
+                        "Medicine_b": "Quinidina",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Anticoagulantes Orais",
+                        "Medicine_b": "Ácido Mefenâmico",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Ácido Mefenâmico",
+                        "Medicine_b": "Biguanidas (Fenformina)",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Anticoagulantes Orais",
+                        "Medicine_b": "Fenilbutazona",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Anticoagulantes Orais",
+                        "Medicine_b": "Quinidina",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Anticoagulantes Orais",
+                        "Medicine_b": "Biguanidas (Fenformina)",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Quinidina",
+                        "Medicine_b": "Ácido Mefenâmico",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Fenilbutazona",
+                        "Medicine_b": "Ácido Mefenâmico",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Quinidina",
+                        "Medicine_b": "Biguanidas (Fenformina)",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Fenilbutazona",
+                        "Medicine_b": "Biguanidas (Fenformina)",
+                        "Value": 0,
+                        "Description": "No clinical significance"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 1,
+                    "1": 2,
+                    "2": 0,
+                    "3": 4,
+                    "4": 2,
+                    "5": 1
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00003",
+            "Patient_Name": "Rosa Brito",
+            "Prescribed_Medications": [
+                "Carbamazepina",
+                "Clonidina",
+                "Contraceptivos Orais",
+                "Indometacina",
+                "Haloperidol"
+            ],
+            "Num_Medicines": 5,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 10,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Carbamazepina",
+                        "Medicine_b": "Contraceptivos Orais",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Clonidina",
+                        "Medicine_b": "Indometacina",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Indometacina",
+                        "Medicine_b": "Haloperidol",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Carbamazepina",
+                        "Medicine_b": "Clonidina",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Carbamazepina",
+                        "Medicine_b": "Haloperidol",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Carbamazepina",
+                        "Medicine_b": "Indometacina",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Clonidina",
+                        "Medicine_b": "Contraceptivos Orais",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Clonidina",
+                        "Medicine_b": "Haloperidol",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Contraceptivos Orais",
+                        "Medicine_b": "Indometacina",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Contraceptivos Orais",
+                        "Medicine_b": "Haloperidol",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 0,
+                    "1": 5,
+                    "2": 2,
+                    "3": 0,
+                    "4": 3,
+                    "5": 0
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00004",
+            "Patient_Name": "Ricardo Freitas",
+            "Prescribed_Medications": [
+                "Piridoxina",
+                "Hidrato de Cloral",
+                "Corticosteróides"
+            ],
+            "Num_Medicines": 3,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 3,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Piridoxina",
+                        "Medicine_b": "Hidrato de Cloral",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Piridoxina",
+                        "Medicine_b": "Corticosteróides",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Hidrato de Cloral",
+                        "Medicine_b": "Corticosteróides",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 3
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00005",
+            "Patient_Name": "Marco Macedo",
+            "Prescribed_Medications": [
+                "Indometacina",
+                "Antiácidos",
+                "Fenfluramina",
+                "Naproxeno",
+                "Tiazidas",
+                "Ácido Acetilsalicílico"
+            ],
+            "Num_Medicines": 6,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 15,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Indometacina",
+                        "Medicine_b": "Antiácidos",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Indometacina",
+                        "Medicine_b": "Naproxeno",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Naproxeno",
+                        "Medicine_b": "Tiazidas",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Naproxeno",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Indometacina",
+                        "Medicine_b": "Ácido Acetilsalicílico",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Tiazidas",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Ácido Acetilsalicílico",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Fenfluramina",
+                        "Medicine_b": "Naproxeno",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Fenfluramina",
+                        "Medicine_b": "Ácido Acetilsalicílico",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Tiazidas",
+                        "Medicine_b": "Ácido Acetilsalicílico",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Fenfluramina",
+                        "Medicine_b": "Tiazidas",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Indometacina",
+                        "Medicine_b": "Fenfluramina",
+                        "Value": 0,
+                        "Description": "No clinical significance"
+                    },
+                    {
+                        "Medicine_a": "Indometacina",
+                        "Medicine_b": "Tiazidas",
+                        "Value": 0,
+                        "Description": "No clinical significance"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Fenfluramina",
+                        "Value": 0,
+                        "Description": "No clinical significance"
+                    },
+                    {
+                        "Medicine_a": "Naproxeno",
+                        "Medicine_b": "Ácido Acetilsalicílico",
+                        "Value": 0,
+                        "Description": "No clinical significance"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 4,
+                    "1": 1,
+                    "2": 6,
+                    "3": 1,
+                    "4": 1,
+                    "5": 2
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00006",
+            "Patient_Name": "José Brito",
+            "Prescribed_Medications": [
+                "Tiramina (Alimentos, Etc.)",
+                "Anti-histamínicos",
+                "Furosemida"
+            ],
+            "Num_Medicines": 3,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 3,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Tiramina (Alimentos, Etc.)",
+                        "Medicine_b": "Anti-histamínicos",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Anti-histamínicos",
+                        "Medicine_b": "Furosemida",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Tiramina (Alimentos, Etc.)",
+                        "Medicine_b": "Furosemida",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 0,
+                    "1": 1,
+                    "2": 1,
+                    "3": 0,
+                    "4": 0,
+                    "5": 1
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00007",
+            "Patient_Name": "Alexandra Santos",
+            "Prescribed_Medications": [
+                "Tiroxina",
+                "Glutetimida",
+                "Sulfimpirazona"
+            ],
+            "Num_Medicines": 3,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 3,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Tiroxina",
+                        "Medicine_b": "Sulfimpirazona",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Tiroxina",
+                        "Medicine_b": "Glutetimida",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Glutetimida",
+                        "Medicine_b": "Sulfimpirazona",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 0,
+                    "1": 1,
+                    "2": 1,
+                    "3": 0,
+                    "4": 1,
+                    "5": 0
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00008",
+            "Patient_Name": "André Pinho",
+            "Prescribed_Medications": [
+                "Antiácidos",
+                "Haloperidol",
+                "Ácido Mefenâmico",
+                "Digoxina",
+                "Bloqueadores adrenérgicos beta"
+            ],
+            "Num_Medicines": 5,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 10,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Digoxina",
+                        "Medicine_b": "Bloqueadores adrenérgicos beta",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Haloperidol",
+                        "Medicine_b": "Digoxina",
+                        "Value": 4,
+                        "Description": "Decreases therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Haloperidol",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Ácido Mefenâmico",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Digoxina",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Antiácidos",
+                        "Medicine_b": "Bloqueadores adrenérgicos beta",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Haloperidol",
+                        "Medicine_b": "Bloqueadores adrenérgicos beta",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Ácido Mefenâmico",
+                        "Medicine_b": "Bloqueadores adrenérgicos beta",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Haloperidol",
+                        "Medicine_b": "Ácido Mefenâmico",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    },
+                    {
+                        "Medicine_a": "Ácido Mefenâmico",
+                        "Medicine_b": "Digoxina",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 0,
+                    "1": 2,
+                    "2": 4,
+                    "3": 2,
+                    "4": 1,
+                    "5": 1
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00009",
+            "Patient_Name": "Matilde Ribeiro",
+            "Prescribed_Medications": [
+                "Cefaloridina (Ceporan)",
+                "Indometacina"
+            ],
+            "Num_Medicines": 2,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 1,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Cefaloridina (Ceporan)",
+                        "Medicine_b": "Indometacina",
+                        "Value": 5,
+                        "Description": "Decreases therapeutic/toxic effect (vertical column)"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 1
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        },
+        {
+            "Patient_ID": "U-00010",
+            "Patient_Name": "Vera Baptista",
+            "Prescribed_Medications": [
+                "Metotrexato",
+                "Piridoxina",
+                "Levodopa"
+            ],
+            "Num_Medicines": 3,
+            "Balance_Interactions": {
+                "Analyzed_Pairs": 3,
+                "Interactions": [
+                    {
+                        "Medicine_a": "Metotrexato",
+                        "Medicine_b": "Levodopa",
+                        "Value": 3,
+                        "Description": "Enhancer of therapeutic/toxic effect (vertical column)"
+                    },
+                    {
+                        "Medicine_a": "Metotrexato",
+                        "Medicine_b": "Piridoxina",
+                        "Value": 2,
+                        "Description": "Enhancer of therapeutic/toxic effect (horizontal column)"
+                    },
+                    {
+                        "Medicine_a": "Piridoxina",
+                        "Medicine_b": "Levodopa",
+                        "Value": 1,
+                        "Description": "Potentially serious"
+                    }
+                ],
+                "Count_by_Type": {
+                    "0": 0,
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 0,
+                    "5": 0
+                },
+                "Have_Interactions": true,
+                "Decision": "With Interactions"
+            }
+        }
+    ]
+}
